@@ -1,0 +1,7 @@
+[versions]
+kotlin = "1.9.22"
+appcompat = "1.6.1"
+
+[libraries]
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
